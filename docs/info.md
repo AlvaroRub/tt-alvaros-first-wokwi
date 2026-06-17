@@ -31,4 +31,4 @@ No special external hardware is required if using the standard Tiny Tapeout demo
 If mounted on a custom breadboard, the following will be needed:
 * A clock source (e.g., a 555 timer-based oscillator or a microcontroller).
 * 16 LEDs connected to the `uo_out` and `uio_out` pins, along with their respective current-limiting resistors (e.g., 330 Ω to 1 kΩ).
-* A pushbutton with a pull-up resistor for the reset signal..
+* A pushbutton with a pull-up resistor for the reset signal.
