@@ -29,17 +29,8 @@
 
   "//": "--------- Custom config ---------------- ",
   
-  "PDK": "gf180mcuD", 
-  
-  "SYNTH_AUTONAME": 0,
-  "SYNTH_KEEP": 0, 
-
-  "//" : "jtag clk config, setting to 500ns -> 2MHz",
-  "JTAG_CLOCK_PERIOD": 500, 
   "CLOCK_PERIOD": 20,
-
   "CLOCK_PORT": "clk",
-  "FALLBACK_SDC_FILE": "dir::project.sdc",  
 
   "CTS_DISTANCE_BETWEEN_BUFFERS": 20,
 
@@ -65,8 +56,8 @@
 
   "GRT_ALLOW_CONGESTION": 1,
 
-  "FP_IO_HLENGTH": 2,
-  "FP_IO_VLENGTH": 2,
+  "IO_PIN_H_LENGTH": 2,
+  "IO_PIN_V_LENGTH": 2,
 
   "FP_PDN_VPITCH": 38.87,
 
